@@ -73,7 +73,7 @@ const Footer = () => {
         </div>
         <div className="flex flex-row items-center justify-between">
           <Circle ref={div2Ref}>
-            <Link href={"#"}>
+            <Link href={"https://yuvraj-portfolio2024.netlify.app"}>
                 <Image src="/icons/skype.png" width={65} height={65} alt='icons'/>
             </Link>
           </Circle>
@@ -93,7 +93,7 @@ const Footer = () => {
             </Link>
           </Circle>
           <Circle ref={div7Ref}>
-            <Link href={"#"}>
+            <Link href={"https://yuvraj-portfolio2024.netlify.app"}>
                 <Image src="/icons/instagram.png" width={65} height={65} alt='icons'/>
             </Link>
           </Circle>
