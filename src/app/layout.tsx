@@ -24,7 +24,8 @@ export default function RootLayout({
       <body className={quicksand.className}>
       <NextUIProvider>
         <Header/>
-        {children}
+        {/* {children} */}
+        <div className="text-2xl text-blue-950 font-semibold">in Progress...</div>
         {/* <Footer/> */}
         <FloatingContact/>
         <StickyFooter/>
