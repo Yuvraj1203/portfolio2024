@@ -22,13 +22,13 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body className={quicksand.className}>
-      <NextUIProvider>
-        <Header/>
+      <NextUIProvider className="flex items-center justify-between">
+        {/* <Header/> */}
         {/* {children} */}
         <div className="text-2xl text-blue-950 font-semibold">in Progress...</div>
         {/* <Footer/> */}
-        <FloatingContact/>
-        <StickyFooter/>
+        {/* <FloatingContact/>
+        <StickyFooter/> */}
       </NextUIProvider>
         </body>
     </html>
